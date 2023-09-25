@@ -20,8 +20,8 @@
 
 double Pifagor(int x1, int x2, int y1, int y2)
 {
-double result = Math.Sqrt(Math.Pow(x1-x2), 2) + Math.Pow ((y1-y2),2);
-return result;
+    double result = Math.Sqrt(Math.Pow((x1 - x2), 2) + Math.Pow((y1 - y2), 2));
+    return result;
 
 }
 
@@ -40,6 +40,7 @@ int y1Cordinate = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("y2:");
 int y2Cordinate = Convert.ToInt32(Console.ReadLine());
+
 double res = Pifagor(x1Cordinate, x2Cordinate, y1Cordinate, y2Cordinate);
 
 
